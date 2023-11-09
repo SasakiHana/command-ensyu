@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+	for(int i = 0; i < 2; i++) {
         String type = "";
         System.out.println("BMIを計算して、肥満度を表示します。");
         System.out.println("身長(m)を入力してください。");
@@ -34,6 +35,7 @@ public class Main {
             System.out.println("あなたのBMIは" + BMI + "です。");
             System.out.println("診断結果:" + type + "です。");
         }
+    }
 
         }
 
